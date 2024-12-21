@@ -1,0 +1,9 @@
+Package: com.34306.timelefted
+Name: timelefted
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Show estimate time left on charging battery
+Maintainer: Little 34306
+Author: 34306
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
