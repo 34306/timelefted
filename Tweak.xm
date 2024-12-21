@@ -12,7 +12,7 @@ NSString *chargingstate = @"";
 void executeCommand() {
   pid_t pid;
   const char* args[] = {"batt", NULL};
-  posix_spawn(&pid, "/usr/bin/batt", NULL, NULL, (char* const*)args, NULL);
+  posix_spawn(&pid, "/var/jb/usr/bin/batt", NULL, NULL, (char* const*)args, NULL);
 }
 
 
